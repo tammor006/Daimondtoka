@@ -233,10 +233,17 @@ background: transparent;
 .logo {float: inherit; padding-bottom: 15px; text-align: center; margin-top: -16px;}
 #myCarousel a.carousel-control-prev {width: 45px; height: 45px;}
 #myCarousel a.carousel-control-next {width: 45px; height: 45px;}
-.banner-main .carousel-item img {height: 339px;}
+.banner-main .carousel-item img {height: 420px;}
 .banner-main .carousel-caption span {font-size: 22px; line-height: 19px;}
-.banner-main .carousel-caption h1 {font-size: 42px; line-height: 40px;}
-.banner-main .carousel-caption p  {display: none;}
+.banner-main .carousel-caption h1 {font-size: 32px; line-height: 30px;}
+.banner-main .carousel-caption p  {
+font-size: 13px;
+    line-height: 20px;
+    padding: 12px 0px 12px 0px;
+} 
+.carousel-indicators {
+bottom: -25px;
+}
 .banner-main .carousel-caption .buynow {
 width: 98px;
 padding: 7px 0;

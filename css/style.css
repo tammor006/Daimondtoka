@@ -449,9 +449,12 @@ background-position: center center;
      position: relative;
      padding-top: 2px;
 }
+.logo  a img{
+    height: 153px;
+    width: 252px;
+}
 
 nav.main-menu {
-     float: right;
      margin-left: 0;
 }
 
@@ -1594,10 +1597,13 @@ width: 100%;
 
 .location_icon_bottum_tt ul li {
      display: inline-block;
-padding: 27px 60px;
+padding: 40px 60px;
 color: #fff;
 font-size: 15px;
 font-weight: 500;
+}
+.location_icon_bottum_tt ul{
+     margin-top: 20px;
 }
 .location_icon_bottum_tt ul li img {padding-right: 10px;}
 
@@ -2120,10 +2126,10 @@ transform: skew(190deg);
 
  
  ul.loca li {
+     text-align: center;
     color: #fff;
 padding-bottom: 10px;
-display: flex;
-font-size: 16px;
+font-size: 18px;
 flex-wrap: wrap;
 }
  ul.loca li:last-child {
@@ -2178,14 +2184,15 @@ margin-top: 4px;
      border-radius: 10px;
 }
  .address  h3 {
+     text-align: center;
 color: #fff;
-font-size: 29px;
-font-weight: 500;
+font-size: 40px;
+font-weight: 600;
 padding-top: 15px;
 padding-bottom: 3px;
 border-bottom: #3e7f21 solid 4px;
 margin-bottom: 20px;
-width: 226px;
+width: 600px;
  }
 .address img {padding-bottom: 10px;}
 
